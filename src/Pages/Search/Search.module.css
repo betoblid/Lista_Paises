@@ -1,0 +1,18 @@
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block: 14px;
+
+}
+
+#container div h1{
+    font: 800 24px 'Nunito Sans', sans-serif;
+}
+
+#container div button{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    background: none;
+    border: none;
+}

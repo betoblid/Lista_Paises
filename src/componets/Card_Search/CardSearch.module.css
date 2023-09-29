@@ -1,0 +1,80 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 80vh;
+    padding-bottom: 10px;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+
+.container div img{
+    width: 440px;
+    box-shadow: 0 0 10px 2px var(--Dark-Gray);
+}
+.box{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+    flex-flow: row wrap;
+    text-align: justify;
+    
+}
+.card_text h2{
+    font: 800 30px 'Nunito Sans', sans-serif;
+    padding-block: 10px;
+}
+.card_text h3{
+    font: 800 20px 'Nunito Sans', sans-serif;
+}
+.card_text h3 span{
+    box-shadow: 0 0 1px 2px var(--Dark-Gray);
+    margin: 0 5px;
+    padding: 0 5px;
+    font: 600 16px 'Nunito Sans', sans-serif;
+}
+.box li ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column; 
+    padding-bottom: 15px; 
+}
+.box li ul li p{
+    padding-block: 6px;
+    font: 300 16px 'Nunito Sans', sans-serif;
+}
+.box li ul li p span{
+    font: 600 14px 'Nunito Sans', sans-serif;
+}
+
+@media(max-width: 650px){
+
+    .container div img{
+        width: 100%;
+    }
+    .box{
+        gap: 10px; 
+    }
+    .container{
+        justify-content: center;
+        min-height: 80vh;
+        width: 100%;
+        text-align: center;
+    }
+    .box li ul li p{
+        padding-block: 6px;
+        font: 300 14px 'Nunito Sans', sans-serif;
+    }
+    .box li ul li p span{
+        font: 600 12px 'Nunito Sans', sans-serif;
+    }
+    .card_text h3 span{
+        margin: 5px 0;
+    }
+    .card_text h3 span{
+        display: inline-block;
+        margin: 0 7px;
+        
+    }
+}
