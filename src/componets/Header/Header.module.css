@@ -5,10 +5,7 @@
     padding-block: 14px;
 
 }
-
-#container div h1{
-    font: 800 22px 'Nunito Sans', sans-serif;
-}
+#container div h1{  font: 800 22px 'Nunito Sans', sans-serif;}
 
 #container div button{
     font-family: 'Nunito Sans', sans-serif;
@@ -16,14 +13,8 @@
     background: none;
     border: none;
 }
-
 @media(max-width: 330px){
-    #container div h1{
-        font: 800 14px 'Nunito Sans', sans-serif;
-    }
+    #container div h1{    font: 800 14px 'Nunito Sans', sans-serif; }
 
-    #container div button{
-        font-size: 12px;
-    }
-    
+    #container div button{     font-size: 12px; }   
 }

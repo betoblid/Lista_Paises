@@ -1,0 +1,11 @@
+.cardErro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+}
+.cardErro h1{  font: 700 24px "Poppins";   color: rgb(248, 0, 0);}
+
+.cardErro p{   font: 700 18px "Poppins";  }

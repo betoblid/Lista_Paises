@@ -5,14 +5,14 @@
     padding-top: 30px;
 }
 
-.container div input{
+.container form input{
     padding: 10px;
     font-size: 18px;
     width: 300px;
     outline: none;
     border: none;
 }
-.container div label{
+.container form label{
     padding: 12px;
 }
 

@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Rotas from './rotas';
+import './styles/Global.css';
+import { ContextProvaider } from './store';
+import Router from './Router';
 
 const root = ReactDOM.createRoot(document.getElementById('view'));
 root.render(
   <React.StrictMode>
-    <Rotas />
+    <ContextProvaider>
+      <Router />
+    </ContextProvaider>
   </React.StrictMode>
 );
