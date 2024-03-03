@@ -10,7 +10,7 @@ export default function Router() {
             <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/Search/:id" element={<Search />} />
-                <Route path="*" element={<Erro />} />
+                <Route path="/*" element={<Erro />} />
             </Routes>
         </BrowserRouter>
     )

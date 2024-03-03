@@ -2,7 +2,6 @@ import style from "./CardSearch.module.css"
 
 const CardSearch = ({ population, capital, region, alt, pais, sub, level, lang, currency, thumb, border }) => {
 
-
     return (
         <div className={style.container}>
             <div>
